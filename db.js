@@ -10,7 +10,7 @@ const dbPath = path.join(dataDir, 'db.json');
 const adapter = new JSONFile(dbPath);
 const db = new Low(adapter, { users: [] }); // Default structure
 
-const REFERRAL_BONUS = { money: 25000, gems: 0 };
+const REFERRAL_BONUS = { money: 50000, gems: 10 };
 
 // Load the database
 await db.read();
