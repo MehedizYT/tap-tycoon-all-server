@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Backend for Tap Tycoon Game",
   "main": "index.js",
-  "type": "module",  // <-- ADD THIS LINE
   "scripts": {
     "start": "node index.js"
   },
